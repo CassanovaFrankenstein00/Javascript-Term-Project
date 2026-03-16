@@ -1,0 +1,55 @@
+:root {
+    --pcolor: #28ACD6; 
+    --scolor: #ce7e00;
+    --acolor: #B447C0;
+    --tcolor: #170D2E;
+}
+body{
+  background-image:url("../media/cyberpunk.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:100%;
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: var(--pcolor);
+  border-radius: 3px;
+  justify-items: center;
+}
+
+#navbar a {
+  display: inline-block;
+  color: var(--tcolor);
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: var(--scolor);
+  color: black;
+}
+
+#navbar a.active {
+  background-color: var(--pcolor);
+  color: white;
+}
+
+section {
+  padding: 20px;
+  background-color:var(--acolor);
+  font-size:1.2em;
+  opacity:.9; 
+  font-weight:bolder;    
+  color: var(--tcolor);
+  border-radius: 3px;
+  text-align: center;
+}
