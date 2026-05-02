@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/dungeonMaster.css">
+<style>
+
+section {
+    color: lawngreen;
+    text-align: center;
+}
+h1 {
+    color:purple;
+}
+aside{
+    display: block;
+    color: white;
+    right:200px;
+}
+</style>       
+</head>
+<body>
+<h1>Dungeon Master</h1>
+
+
+<section id = "gameinterface">
+    <div id = "timer">0 seconds</div>
+</section>
+
+<aside>
+    <p>Use the arrows keys to move<br>
+    the player through the dungeon.<br>
+    Collect jewels along the way to<br>
+    gain points and see how fast you<br>
+    can make it the portal!</p>
+</aside>
+
+<canvas id="canvas" width="1000" height="600" style="border:1px solid black;">
+Sorry, your browser does not support canvas.
+</canvas>
+
+    <script src="js/dungeonMaster.js"></script>
+</body>
+</html>
+
